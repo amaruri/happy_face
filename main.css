@@ -1,0 +1,27 @@
+body{
+	margin-top: 250px;
+}
+
+@keyframes speak{
+	0% { background-position: 0 0; }
+	100% { background-position: 0 100%; }
+}
+
+.speak{
+	height: 228px;
+	width: 313px;
+	background: url('speak.jpg');
+	background-position: 0 0;
+}
+
+.speaking{
+	animation: speak 0.35s steps(2) infinite;
+}
+
+.stay{
+	background-position: 314px 0;
+}
+
+.wait{
+	background-position: 314px 228px;
+}
